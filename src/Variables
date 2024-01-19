@@ -1,0 +1,33 @@
+Variables_and_Datatypes are some thing in which you can store data
+variables are virtual storage spaces where you can store some data temporarily
+
+Java is a strongly typed language.
+we need to mention the datatype before writing the name of the variable
+
+
+There are two types of datatypes : primitive and non primitive
+
+Primitive datatypes :
+1. integers - short, long, int , long
+2. floating - double, float
+3. boolean
+4. characters
+
+Integers :
+int - 4 bytes
+long - 8 bytes
+short - 2 bytes
+byte - 1 byte
+
+Floating :
+float - 4 bytes
+double - 8 bytes
+double is the default value in java and has high precision
+
+to assign a data of float, we have to explicitly mention as 12.34f, 432.543f....write f after the numbers
+
+char - 2 bytes
+
+boolean :
+true or false   not 0 and 1
+

@@ -1,0 +1,10 @@
+conditional statements are statements where some part of code is executed when the condition passed with themn is true
+
+the conditional statements are :
+if statement
+if - else statement
+if - else if statement
+if - else if - else statement
+switch statements
+
+swtich statements are like if - else if -else statements where there are multiple else if statements

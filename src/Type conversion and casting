@@ -1,0 +1,11 @@
+Implicit conversion and explicit conversion
+
+implicit conversion are like
+byte num1 = 127;
+int num2 = 256;
+num2 = num1;
+but we can't do num1 = num2...cause maximum value that byte can store is 127..
+
+explicit conversion is that we are explicitly telling the compiler to convert the datatype...it is also called as casting
+for the above example we can do like
+num1 = (byte)num2;

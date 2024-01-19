@@ -1,0 +1,18 @@
+In our machine there is something called  JVM.
+Since Java is platform independent, it is because of JVM. It can run on any device that has JVM
+if you have JVM, you can run java appllications
+JVM only understands bytecode.
+Java compiler (javac) converts java code into bytecode
+
+java file extension - hello.java
+byte code file extension - hello.class
+
+
+JVM executes the first file that has something called main method.
+it should contain public static void main(String args[])
+
+JRE - java runtime environment
+JVM is a part of JRE
+JRE contains libraries and JVM
+
+java is WORA - write once run anywhere

@@ -1,0 +1,52 @@
+Operators
+
+Arithmetic operators
+
+int num1 = 10;
+int num2 = 20;
+
+addition                num1+num2
+subtraction             num1-num2
+product                 num2*num1
+modulus / reminder      num2%2
+division                num2/10
+power                   num1**2
+
+
+num1 = num1 + 1;
+num1 += 1;
+num1++ / ++num2   post-increment / pre-increment
+num1-- / --num2   post-decrement / pre-decrement
+
+*************************************************************************************************************************
+
+
+RELATIONAL OPERATOR
+
+int n = 34;
+int m = 94;
+
+n > m;
+n < m;
+n >= m;
+m <= n
+m != n
+n == m
+
+the results would be in boolean
+
+
+**********************************************************************************************************************
+
+LOGICAL OPERATORS
+
+logical AND  &/&&
+logical OR   | / ||
+NOT operator  !
+
+The result will be true if both the conditions in logical AND statemnent are true
+The result will be true if all the conditions in the logical OR statement are true
+The not operator will just reverse the boolean value.....if it is true....then not operator will make is false
+
+
+
