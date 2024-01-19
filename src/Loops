@@ -1,0 +1,37 @@
+Loops
+
+you can execute or print statements mutiple times by using
+loops. You dont have to write the statement multiple times
+to print the statements
+
+Loops :
+1. while loop
+2. do while loop
+3. for loop
+
+
+while loop :
+
+int i=0;  initialization of i
+while (i<10)   setting condtition for i. while loop will execute only when the condition is true
+statements
+increment or decrement i
+
+
+do while loop :
+we can use this loop if we want to execute or print the statement atleast once
+
+int i=5;  initialize i
+do{
+statement
+increment or decrement
+}while(condition)
+
+for loops :
+for(initialize ; condition ; increment/decrement)
+statement
+
+we can use for loop when we have a range
+
+
+If we know how many iterations to go - use for loop
