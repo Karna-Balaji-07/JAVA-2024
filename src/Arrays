@@ -1,0 +1,31 @@
+arrays is a collection of data of one variable
+one variables with multiple values
+
+int i =1;
+int j = 2;
+int k = 3;
+int l = 4;
+
+when we create a variable it occupies some storage space
+
+int num[] = {1,2,3,4,5};
+
+to make arrays dynamically
+int num1[] = new int[4];
+
+by default all the values of the array will be 0
+
+
+int nums[][] = new int[3][4];
+there are 3 small arrays that are having 4 elements in it
+
+nums[3][4] = nums[i][j]------i = rows ; j = columns
+
+to get the first element in multidimensional arrays :
+nums[0][0]
+oth row and oth row
+
+nums[2][3]
+2nd row and 3 column or 3rd element of 2nd small array
+
+

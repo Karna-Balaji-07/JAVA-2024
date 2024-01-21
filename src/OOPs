@@ -1,0 +1,41 @@
+Objct oriented programming
+
+objects have both properties and behaviours
+
+classes are blueprint of objects
+
+
+
+class Calculator{
+
+    int a;    // instance variables
+    public int add(int num1,int num2){       // method
+        int r = num1 + num2;
+        return r;
+    }
+}
+
+public class OOPs {
+    public static void main(String args[]){
+        System.out.println("Object oriented programming!");
+
+        int num1 = 10;
+        int num2 = 24;
+
+        Calculator calc = new Calculator() ;   // creating an object
+        int result = calc.add(num1,num2);
+
+
+        //int result = num1 + num2;
+        System.out.println(result);
+    }
+}
+
+
+// new Calculator is when we are creating a new object
+// Calculator calc are like reference variables
+
+
+method overloading is when we use same method name but different datatype of parameters and different number of parameters
+
+every method has its own
