@@ -28,4 +28,7 @@ oth row and oth row
 nums[2][3]
 2nd row and 3 column or 3rd element of 2nd small array
 
+jagged arrray - is when the we are individually mentioning the size od columns
+
+.
 

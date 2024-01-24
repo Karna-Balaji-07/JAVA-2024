@@ -1,0 +1,45 @@
+Strings are the type of objects that can store the character of values and in Java,
+every character is stored in 16 bits i,e using UTF 16-bit encoding.
+A string acts the same as an array of characters in Java.
+
+There are two ways to create a string in Java:
+
+String Literal
+Using new Keyword
+
+String literal :
+String str = "hello world";
+
+Using new keyword :
+
+JVM will create a new string object in normal (non-pool) heap memory and the literal “Welcome” will be placed in the string constant pool.
+The variable s will refer to the object in the heap
+
+String str = new String("Welcome");
+
+
+String is an immutable class which means a constant and cannot be changed once created and if wish to change ,
+we need to create an new object and even the functionality it provides like toupper, tolower,
+ etc all these return a new object , its not modify the original object. It is automatically thread safe.
+
+ StringBuffer is a peer class of String that provides much of the functionality of strings.
+
+ StringBuffer represents growable and writable character sequences means it is immutable in nature and it is thread safe class ,
+  we can use it when we have multi threaded environment and shared object of string buffer i.e, used by mutiple thread.
+  As it is thread safe so there is extra overhead, so it is mainly used for multithreaded program.
+
+ StringBuffer demoString = new StringBuffer("GeeksforGeeks");
+
+ StringBuilder in Java represents a mutable sequence of characters
+ creates a mutable sequence of characters and it is not thread safe and its used only within the thread , so there is no extra overhead , so it is mainly used for single threaded program.
+
+
+ StringBuilder demoString = new StringBuilder();
+ demoString.append("GFG");
+
+
+ StringTokenizer class in Java is used to break a string into tokens.
+
+
+
+
