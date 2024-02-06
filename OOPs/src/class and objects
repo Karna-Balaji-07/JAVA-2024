@@ -1,0 +1,55 @@
+In java, classes and objects are basic concepts of OOPs that are used to represent real world concepts
+and entities.
+
+A class in Java is a set of objects which share common characteristics/behavior
+and common properties/attributes. it is a user defined blueprint
+or prototype from which objects are created
+
+Properties of Java class :
+>> class is not a real world entity. It is a template or blueprint
+or prototype from which objects are created.
+>> class does not occupy memory
+>> class is a group of variables of different data types and a group of methods
+>> A class can contain :
+>>>> Data member
+>>>> method
+>>>> constructor
+>>>> nested class
+>>>> interface
+
+
+class declaration in Java :
+
+access_modifier class <class_name>
+{
+    data member;
+    method;
+    constructor;
+    nested class;
+    interface;
+}
+
+Java objcts :
+
+An object in Java is a basic unit of OOP and represents real life entities
+Objects are the instances of a class that are created to use the attribues and methods of a class
+
+An object consists of :
+>> State : attributes of an object. Also reflects the properties of an object
+>> behavior : methods of an object. Also reflects the response of an object with other objects
+>> identity  unique name to an object
+
+when we create an object which is a non-primitive data type, it is always allocated on the heap memory
+
+
+When an object of a class is created, the class is said to be instantiated
+all the instances share the attributes and the behavior of the class
+
+There are a few ways to create an object :
+ >> using new keyword
+ Test t = new Test();
+
+ >> using Class.forName(String className) method
+ >> using clone() method
+ >> deserialization
+ 

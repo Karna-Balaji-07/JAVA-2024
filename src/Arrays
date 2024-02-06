@@ -1,34 +1,51 @@
-arrays is a collection of data of one variable
-one variables with multiple values
+In Java, all arrays are dynamically allocated
+Arrays may be stored in contiguous memory [consecutive memory locations].
+An array can contain primitives (int, char, etc.) and object (or non-primitive) references of a class depending on the definition of the array. In the case of primitive data types, the actual values might be stored in contiguous memory locations
 
-int i =1;
-int j = 2;
-int k = 3;
-int l = 4;
+// both are valid declarations
+int intArray[];
+int[] intArray;
+// similar to int we can declare
+// byte , short, boolean, long, float
+// double, char
 
-when we create a variable it occupies some storage space
-
-int num[] = {1,2,3,4,5};
-
-to make arrays dynamically
-int num1[] = new int[4];
-
-by default all the values of the array will be 0
+Although the first declaration establishes that int Array is an array variable, no actual array exists.
+ It merely tells the compiler that this variable (int Array) will hold an array of the integer type.
+ To link int Array with an actual, physical array of integers,
+  you must allocate one using new and assign it to int Array
 
 
-int nums[][] = new int[3][4];
-there are 3 small arrays that are having 4 elements in it
+  When an array is declared, only a reference of an array is created.
+  To create or give memory to the array, you create an array like this:
+  The general form of new as it applies to one-dimensional arrays appears as follows:
 
-nums[3][4] = nums[i][j]------i = rows ; j = columns
+  var-name = new type [size];
 
-to get the first element in multidimensional arrays :
-nums[0][0]
-oth row and oth row
+  Here, type specifies the type of data being allocated, size determines the number of elements in the array,
+  and var-name is the name of the array variable that is linked to the array.
+  To use new to allocate an array, you must specify the type and number of elements to allocate.
 
-nums[2][3]
-2nd row and 3 column or 3rd element of 2nd small array
+Literals in Java :
 
-jagged arrray - is when the we are individually mentioning the size od columns
+In a situation where the size of the array and variables of the array are already known, array literals can be used.
+// Declaring array literal
+int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 };
+The length of this array determines the length of the created array.
+There is no need to write the new int[] part in the latest versions of Java.
 
-.
+We can access elements of an array using for loop via its index
+
+Arrays of Objects in Java
+An array of objects is created like an array of primitive-type data items in the following way.
+
+Student[] arr = new Student[5]; //student is a user-defined class
+Syntax:
+
+-- data type[] arrName;
+-- datatype arrName[];
+-- datatype [] arrName;
+
+
+     int [] arr1 = new int[5];
+        System.out.println(arr1.length);
 
