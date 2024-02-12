@@ -1,0 +1,11 @@
+In Java, a Constructor is a block of codes similar to the method.
+It is called when an instance of the class is created. At the time of calling the constructor, memory for the object is allocated in the memory.
+It is a special type of method that is used to initialize the object.
+Every time an object is created using the new() keyword, at least one constructor is called.
+
+ the java compiler creates a default constructor (constructor with no arguments) if your class doesn’t have any.
+
+ DefaultConstructors must have the same name as the class within which it is defined it is not necessary for the method in Java.
+ DefaultConstructors do not return any type while method(s) have the return type or void if does not return any value.
+ DefaultConstructors are called only once at the time of Object creation while method(s) can be called any number of times
+
