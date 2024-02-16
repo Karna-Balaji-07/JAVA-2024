@@ -70,13 +70,13 @@ public class Arrays1 {
 
 //        int array[] = new int[10];
 //
-//        // array literal in Java :
-//        int [] newarray = new int[]{1,2,3,4,5,6,7,8,9};
-//        for(int i=0;i<9;i++){
-//            System.out.println("Array element "+i+" = "+newarray[i]);
-//        }
-//        System.out.println("End");
-//
+        // array literal in Java :
+        int [] newarray = new int[]{1,2,3,4,5,6,7,8,9};
+        for(int i=0;i<9;i++){
+            System.out.println("Array element "+i+" = "+newarray[i]);
+        }
+        System.out.println("End");
+
 //        int [] arr1 = new int[5];
 //        System.out.println(arr1.length);
 
