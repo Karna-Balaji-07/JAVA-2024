@@ -1,22 +1,27 @@
 import java.util.*;
 
-public class ParameterizedConstructor {
-
+class  GPA
+{
     String name;
-    int id;
-    double gpa;
-    ParameterizedConstructor(String name, int id, double gpa)
+    int n;
+    double a;
+
+    GPA(String name, int n,double a)
     {
         this.name = name;
-        this.id = id;
-        this.gpa = gpa;
+        this.n = n;
+        this.a = a;
     }
 
-    public static void main(String args[])
-    {
-        ParameterizedConstructor obj = new ParameterizedConstructor("Arjun",1221394,8.4);
-        System.out.println("Name : "+obj.name);
-        System.out.println("ID : "+obj.id);
-        System.out.println("GPA : "+obj.gpa);
-    }
+}
+
+
+public class ParameterizedConstructor {
+
+        public static void main(String args[])
+        {
+            System.out.println("Parameterizede constructor");
+            GPA g = new GPA("John",123,32.123);
+            System.out.println(g.name+g.n+g.a);
+        }
 }
