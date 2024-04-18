@@ -22,13 +22,13 @@ String is an immutable class which means a constant and cannot be changed once c
 we need to create an new object and even the functionality it provides like toupper, tolower,
  etc all these return a new object , its not modify the original object. It is automatically thread safe.
 
- StringBuffer is a peer class of String that provides much of the functionality of strings.
+ String_Buffer is a peer class of String that provides much of the functionality of strings.
 
- StringBuffer represents growable and writable character sequences means it is immutable in nature and it is thread safe class ,
+ String_Buffer represents growable and writable character sequences means it is immutable in nature and it is thread safe class ,
   we can use it when we have multi threaded environment and shared object of string buffer i.e, used by mutiple thread.
   As it is thread safe so there is extra overhead, so it is mainly used for multithreaded program.
 
- StringBuffer demoString = new StringBuffer("GeeksforGeeks");
+ String_Buffer demoString = new String_Buffer("GeeksforGeeks");
 
  StringBuilder in Java represents a mutable sequence of characters
  creates a mutable sequence of characters and it is not thread safe and its used only within the thread , so there is no extra overhead , so it is mainly used for single threaded program.
